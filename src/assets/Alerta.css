@@ -1,0 +1,24 @@
+.alerta {
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  animation: fadeOut 3s ease forwards;
+}
+
+.alerta.sucesso {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alerta.erro {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; display: none; }
+}

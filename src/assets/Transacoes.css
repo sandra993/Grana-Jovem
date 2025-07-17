@@ -1,0 +1,47 @@
+.transacoes {
+  margin-top: 30px;
+}
+
+.transacoes h2 {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.transacoes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transacoes li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-left: 5px solid transparent;
+  background-color: var(--card-bg);
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+.transacoes li.entrada {
+  border-left-color: #4caf50;
+}
+
+.transacoes li.saida {
+  border-left-color: #f44336;
+}
+
+.transacoes button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s;
+}
+
+.transacoes button:hover {
+  background-color: #d32f2f;
+}

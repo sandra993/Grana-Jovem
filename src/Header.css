@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 16px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.theme-toggle {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.theme-toggle:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}

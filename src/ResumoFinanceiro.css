@@ -1,0 +1,13 @@
+.resumo {
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 600px) {
+  .resumo {
+    padding: 10px;
+  }
+}
